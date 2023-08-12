@@ -1,3 +1,27 @@
+#CRUD PRACTICO CON LOCALSTORAGE
+<p>
+Algunos temas  que he visto:
+</p>
+
+- Guardar los datos en local storage.
+- Uso de los Hooks **useEffect** y **useState**.
+- Tipos de las properties.
+- Estructura de los componentes.
+
+## 📜 Resumen 📜
+
+Desarrollado con la libreria React . Es un formulario que registra cada Pokemon que has capturado y se muestra en una lista donde podras editar, ver y eliminar el registro que has agregado.
+##  💻 Instalación. 💻
+
+- Ubicarse en la carpeta donde guardara el proyecto.
+- Abrir la terminal y ejecutar :
+	- git clone https://github.com/RaulQD/react-pokemon.git
+	- cd react-pokemon
+	- levantar el proyecto con **npm run dev**
+
+
+## Technologias usadas.
+
 <table>
 <thead>
 <tr>
