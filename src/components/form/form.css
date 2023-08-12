@@ -1,0 +1,46 @@
+.form h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+.form__content{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    padding:15px;
+    border-radius: 10px;
+}
+
+.form__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__wrap label {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    /* width: 500px; */
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #524f4f;
+    outline: none;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+.button {
+    background-color: #4f46e5;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}

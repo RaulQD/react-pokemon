@@ -1,0 +1,41 @@
+.card__content{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    padding:15px;
+    border-radius: 10px;
+    margin:1rem 1rem;
+}
+.card__back--header{
+    text-align: center;
+}
+.card__back--data{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    margin-top: 1.5rem;
+}
+.card__back--data span{
+    font-weight: bold;
+}
+.btn{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    
+}
+.btn-global{
+    border: none;
+    color: #ffffff;
+    padding:10px 20px;
+    font-size: 1.6rem; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn .btn-editar{
+    background-color: #4f46e5;
+}
+.btn .btn-eliminar{
+    background-color: #b91c1c;
+}
