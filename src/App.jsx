@@ -5,7 +5,8 @@ import { Pokelist } from './pages/listaPokemon/Pokelist';
 
 export const App = () => {
 
-  const [pokemons, setPokemons] = useState(JSON.parse(localStorage.getItem('pokemons')) ?? [])
+  const POKEMON_STORAGE = JSON.parse(localStorage.getItem('pokemons')) ?? []
+  const [pokemons, setPokemons] = useState(POKEMON_STORAGE)
   const [pokemon, setPokemon] = useState({});
 
   useEffect(() => {
